@@ -152,35 +152,6 @@ public class CharacterMovement : MonoBehaviour
         if (isInteracting)
             interaction();
         if (isAttacking)
-            Attack();
-
-
-      
-        //if (Input.GetKeyDown(KeyCode.D))
-        //{
-        //    targetRotation = transform.rotation * Quaternion.Euler(0f, 90f, 0f);
-        //    isRotating = true;
-        //}
-        //if (Input.GetKeyDown(KeyCode.A))
-        //{
-        //    targetRotation = transform.rotation * Quaternion.Euler(0f, -90f, 0f);
-        //    isRotating = true;
-        //}
-        //if (Input.GetKeyDown(KeyCode.W))
-        //{          
-        //    targetPosition = transform.position + transform.forward;
-        //    isMoving = true;
-        //}
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    isInteracting = true;
-        //    Debug.Log("Action start");
-        //}
-
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    isAttacking = true;
-        //    Debug.Log("Attack start");
-        //}       
+            Attack();      
     }
 }
